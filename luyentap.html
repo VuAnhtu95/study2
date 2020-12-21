@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Bai so 1
+    // var string = prompt("");
+    // var count1 = string.length
+    // console.log(count1)
+
+    // Bai so 2
+    // var array1 = []
+    // for (var i=0;i<4;i++){
+    //     array1.push(parseInt(prompt()));
+    // }
+    //
+    // var tong = 0
+    // var avg;
+    // function avgFunction(...arr){
+    //     for (var j=0;j<array1.length;j++){
+    //         tong = tong + array1[j];
+    //         avg = tong/array1.length;
+    //     }
+    //     console.log(avg);
+    // }
+    //
+    // avgFunction(array1)
+
+
+
+    // Bai so 3
+    // var array2 = []
+    // for (var i=0;i<4;i++){
+    //     array2.push(parseInt(prompt()));
+    // }
+    // var min = array2[0];
+    // var max = array2[0];
+    // function maxminFuncion(arr) {
+    //     for (var i = 0; i < array2.length; i++) {
+    //         if (array2[i] > max) {
+    //             max = array2[i];
+    //         } else if (array2[i] < min) {
+    //             min = array2[i];
+    //         }
+    //     }
+    //     console.log(max);
+    //     console.log(min)
+    // }
+    // maxminFuncion(array2)
+
+    // Bai so 4
+    // function congTruNhanChia(a,b){
+    //     var cong = a + b;
+    //     var tru = a - b;
+    //     var nhan = a*b;
+    //     var chia = a/b;
+    //     console.log(cong);
+    //     console.log(tru);
+    //     console.log(nhan);
+    //     console.log(chia);
+    // }
+    // congTruNhanChia(parseInt(prompt()),parseInt(prompt()))
+
+    // Bai so 5
+    // var a = prompt();
+    // function kiemtraSonguyen(sodautien){
+    //     if (isNaN(sodautien)){
+    //         alert("không phải số nguyên")
+    //     }
+    //     else {
+    //         alert("đây là số nguyên")
+    //     }
+    // }
+    // kiemtraSonguyen(a)
+
+    // Bai so 6
+    // var a = prompt("");
+    // function alertFuntion(loichao){
+    //     alert("Hello " + a);
+    // }
+    // alertFuntion(a)
+
+    // Bai so 7
+    // var arr = [];
+    // function themMang(a){
+    //     arr.push(a)
+    //     console.log(arr)
+    // }
+    // themMang(prompt())
+
+    // Bai so 8
+    // var arr = [2,2,2,2];
+    // function xoaMang(a){
+    //     arr.splice(0,a)
+    //     console.log(arr)
+    // }
+    // xoaMang(prompt())
+
+
+    // Bai so 9
+    // var arr = ["a",1,2,3,4,5,"b"]
+    // debugger;
+    // var x = prompt("nhập vào phần tử cần tìm");
+    // function checkVitri(postion){
+    //     for (var i=0;i<arr.length;i++){
+    //         if (arr[i] == x){
+    //             alert("có")
+    //             break;
+    //         }
+    //     }
+    //
+    // }
+    // checkVitri(arr)
+
+    // Bai so 10
+    
+    function unique(arr) {
+        var newArr = []
+        for (var i = 0; i < arr.length; i++) {
+            if (newArr.indexOf(arr[i]) === -1) {
+                newArr.push(arr[i])
+            }
+        }
+        return newArr
+    }
+    console.log(unique([1, 1, 2, 3, 5, 3, 1, -5, 6, 7, 4]))
+</script>
+</body>
+</html>
